@@ -1,12 +1,12 @@
 {
   "name": "maratona-app-wrapper",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A Node.js wrapper for maratona.app API",
   "license": "ISC",
   "author": "luisgbr1el",
   "type": "commonjs",
   "main": "index.js",
-  "keywords": ["maratona", "api", "wrapper", "competitive-programming"],
+  "keywords": ["maratona", "maratona.app", "wrapper" ],
   "scripts": {
     "test": "node test.js"
   },

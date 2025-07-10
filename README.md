@@ -97,6 +97,7 @@ Busca as informações de leitura atual de um usuário no maratona.app.
 **Retorna:**
 Uma Promise que resolve para um objeto contendo:
 - `title` (string): O título do livro sendo lido atualmente
+- `author` (string|null): O nome do autor do livro, ou null se não encontrado
 - `percentage` (number): Porcentagem do progresso de leitura
 - `cover` (string|null): A URL da imagem da capa do livro, ou null se não encontrada
 
@@ -105,6 +106,7 @@ Uma Promise que resolve para um objeto contendo:
 const leituraAtual = await maratonaAppWrapper.getCurrentReading('luisgbr1el');
 // {
 //   title: 'O Programador Pragmático',
+//   author: 'David Thomas, Andrew Hunt',
 //   percentage: 45,
 //   cover: 'https://cdn.maratona.app/book-cover.jpeg'
 // }
